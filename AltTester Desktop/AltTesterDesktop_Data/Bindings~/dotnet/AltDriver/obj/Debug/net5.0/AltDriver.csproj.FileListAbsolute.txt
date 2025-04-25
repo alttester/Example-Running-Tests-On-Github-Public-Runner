@@ -1,0 +1,12 @@
+D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Bindings~\dotnet\AltDriver\obj\Debug\net5.0\AltDriver.csproj.AssemblyReference.cache
+D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Bindings~\dotnet\AltDriver\obj\Debug\net5.0\AltDriver.GeneratedMSBuildEditorConfig.editorconfig
+D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Bindings~\dotnet\AltDriver\obj\Debug\net5.0\AltDriver.AssemblyInfoInputs.cache
+D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Bindings~\dotnet\AltDriver\obj\Debug\net5.0\AltDriver.AssemblyInfo.cs
+D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Bindings~\dotnet\AltDriver\obj\Debug\net5.0\AltDriver.csproj.CoreCompileInputs.cache
+D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Bindings~\dotnet\AltDriver\bin\Debug\net5.0\AltDriver.deps.json
+D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Bindings~\dotnet\AltDriver\bin\Debug\net5.0\AltDriver.dll
+D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Bindings~\dotnet\AltDriver\bin\Debug\net5.0\AltDriver.pdb
+D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Bindings~\dotnet\AltDriver\obj\Debug\net5.0\AltDriver.dll
+D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Bindings~\dotnet\AltDriver\obj\Debug\net5.0\refint\AltDriver.dll
+D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Bindings~\dotnet\AltDriver\obj\Debug\net5.0\AltDriver.pdb
+D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Bindings~\dotnet\AltDriver\obj\Debug\net5.0\ref\AltDriver.dll
