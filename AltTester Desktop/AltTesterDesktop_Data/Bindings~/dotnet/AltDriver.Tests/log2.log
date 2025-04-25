@@ -1,0 +1,1066 @@
+  Determining projects to restore...
+C:\Program Files\dotnet\sdk\7.0.402\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(29,5): warning NETSDK1138: The target framework 'net5.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Bindings~\dotnet\AltDriver.Tests\AltDriver.Tests.csproj]
+C:\Program Files\dotnet\sdk\7.0.402\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(29,5): warning NETSDK1138: The target framework 'net5.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Bindings~\dotnet\AltDriver\AltDriver.csproj::TargetFramework=net5.0]
+C:\Program Files\dotnet\sdk\7.0.402\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(29,5): warning NETSDK1138: The target framework 'net5.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Bindings~\dotnet\AltDriver.Tests\AltDriver.Tests.csproj]
+  All projects are up-to-date for restore.
+C:\Program Files\dotnet\sdk\7.0.402\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(29,5): warning NETSDK1138: The target framework 'net5.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Bindings~\dotnet\AltDriver.Tests\AltDriver.Tests.csproj]
+C:\Program Files\dotnet\sdk\7.0.402\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(29,5): warning NETSDK1138: The target framework 'net5.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Bindings~\dotnet\AltDriver\AltDriver.csproj::TargetFramework=net5.0]
+  AltDriver -> D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Bindings~\dotnet\AltDriver\bin\Debug\net5.0\AltDriver.dll
+  AltDriver.Tests -> D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Bindings~\dotnet\AltDriver.Tests\bin\Debug\net5.0\AltDriver.Tests.dll
+Test run for D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Bindings~\dotnet\AltDriver.Tests\bin\Debug\net5.0\AltDriver.Tests.dll (.NETCoreApp,Version=v5.0)
+Microsoft (R) Test Execution Command Line Tool Version 17.7.1 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Bindings~\dotnet\AltDriver.Tests\bin\Debug\net5.0\AltDriver.Tests.dll
+NUnit Adapter 3.17.0.0: Test execution started
+Running all tests in D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Bindings~\dotnet\AltDriver.Tests\bin\Debug\net5.0\AltDriver.Tests.dll
+   NUnit3TestExecutor discovered 369 of 369 NUnit test cases
+  Failed CapsuleJumpWhenHold [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestAcceleration [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestAccelerationAndWait [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestCallGameObjectMethod [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestCallMethodAssemblyNotFound [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestCallMethodInsideAListOfSubObject [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestCallMethodInsideASubObject [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestCallMethodInsideSubObjectOfGameObject [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestCallMethodInvalidMethodArgumentTypes [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestCallMethodInvalidParameterType [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestCallMethodSetFontSizeWithParameters [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestCallMet  Passed TestDifferentObjectSelectedClickingOnScreenshot [18 s]
+  Passed TestDoubleTap [1 s]
+  Passed TestFindDisabledObject("/AltTesterPrefab/AltDialog/Dialog","Dialog") [389 ms]
+  Passed TestFindDisabledObject("/AltTesterPrefab/AltDialog/Dialog/Title","Title") [334 ms]
+  Passed TestFindDisabledObject("/Cube","Cube") [306 ms]
+  Passed TestFindElementAtCoordinates_3dElement [404 ms]
+  Passed TestFindElementAtCoordinates_NoElement [437 ms]
+  Passed TestFindElementThatContainsText [327 ms]
+  Passed TestFindIndexer("//Dialog[0]","Dialog",False) [426 ms]
+  Passed TestFindIndexer("//Text[-1]","Text",True) [434 ms]
+  Passed TestFindNonExistentObject(COMPONENT,"NonExistent") [330 ms]
+  Passed TestFindNonExistentObject(ID,"NonExistent") [409 ms]
+  Passed TestFindNonExistentObject(LAYER,"NonExistent") [416 ms]
+  Passed TestFindNonExistentObject(NAME,"NonExistent") [361 ms]
+  Passed TestFindNonExistentObject(PATH,"/NonExistent") [410 ms]
+  Passed TestFindNonExistentObject(PATH,"//NonExistent/..") [506 ms]
+  Passed TestFindNonExistentObject(PATH,"//NonExistent/*") [446 ms]
+  Passed TestFindNonExistentObject(PATH,"//*[@tag=NonExistent]") [624 ms]
+  Passed TestFindNonExistentObject(PATH,"//*[@layer=NonExistent]") [541 ms]
+  Passed TestFindNonExistentObject(PATH,"//*[@name=NonExistent]") [436 ms]
+  Passed TestFindNonExistentObject(PATH,"//*[@component=NonExistent]") [446 ms]
+  Passed TestFindNonExistentObject(PATH,"//*[@id=NonExistent]") [512 ms]
+  Passed TestFindNonExistentObject(PATH,"//*[@text=NonExistent]") [475 ms]
+  Passed TestFindNonExistentObject(PATH,"//*[@tag=plane][@layer=NonExistent]") [416 ms]
+  Passed TestFindNonExistentObject(PATH,"//*[@tag=plane][@layer=Default][@name=NonExistent]") [383 ms]
+  Passed TestFindNonExistentObject(PATH,"//*[@tag=plane][@layer=Default][@name=Plane][@component=NonExistent]") [443 ms]
+  Passed TestFindNonExistentObject(PATH,"//*[@tag=plane][@layer=Default][@name=Plane][@component=MeshCollider][@id=NonExistent]") [437 ms]
+  Passed TestFindNonExistentObject(PATH,"//*[@tag=Untagged][@layer=UI][@name=Text][@component=CanvasRenderer][@id=f9dc3b3c-2791-42dc-9c0f-87ef7ff5e11d][@text=NonExistent]") [589 ms]
+  Passed TestFindNonExistentObject(PATH,"//*[contains(@tag,NonExistent)]") [427 ms]
+  Passed TestFindNonExistentObject(PATH,"//*[contains(@layer,NonExistent)]") [368 ms]
+  Passed TestFindNonExistentObject(PATH,"//*[contains(@name,NonExistent)]") [437 ms]
+  Passed TestFindNonExistentObject(PATH,"//*[contains(@component,NonExistent)]") [454 ms]
+  Passed TestFindNonExistentObject(PATH,"//*[contains(@id,NonExistent)]") [311 ms]
+  Passed TestFindNonExistentObject(PATH,"//*[contains(@text,NonExistent)]") [347 ms]
+  Passed TestFindNonExistentObject(PATH,"//*[contains(@tag,pla)][contains(@layer,NonExistent)]") [518 ms]
+  Passed TestFindNonExistentObject(PATH,"//*[contains(@tag,pla)][contains(@layer,Def)][contains(@name,NonExistent)]") [351 ms]
+  Passed TestFindNonExistentObject(PATH,"//*[contains(@tag,pla)][contains(@layer,Def)][contains(@name,Pla)][contains(@component,NonExistent)]") [416 ms]
+  Passed TestFindNonExistentObject(PATH,"//*[contains(@tag,pla)][contains(@layer,Def)][contains(@name,Pla)][contains(@component,MeshColl)][contains(@id,NonExistent)]") [501 ms]
+  Passed TestFindNonExistentObject(PATH,"//*[contains(@tag,Untag)][contains(@layer,U)][contains(@name,Tex)][contains(@component,CanvasRender)][contains(@id,f9dc3b3c-2791-42dc-9c0f-87ef7ff5e11d)][contains(@text,NonExistent)]") [471 ms]
+  Passed TestFindNonExistentObject(PATH,"//Canvas[100]") [387 ms]
+  Passed TestFindNonExistentObject(PATH,"//Canvas[-100]") [346 ms]
+  Passed TestFindNonExistentObject(TAG,"NonExistent") [421 ms]
+  Passed TestFindNonExistentObject(TEXT,"NonExistent") [516 ms]
+  Passed TestFindNonExistentObject(PATH,"//DisabledObject") [486 ms]
+  Passed TestFindNonExistentObject(PATH,"//DisabledObject/DisabledChild") [482 ms]
+  Passed TestFindNonExistentObjectsWhichContain(COMPONENT,"NonExistent") [437 ms]
+  Passed TestFindNonExistentObjectsWhichContain(ID,"NonExistent") [445 ms]
+  Passed TestFindNonExistentObjectsWhichContain(LAYER,"NonExistent") [524 ms]
+  Passed TestFindNonExistentObjectsWhichContain(NAME,"NonExistent") [414 ms]
+  Passed TestFindNonExistentObjectsWhichContain(TAG,"NonExistent") [453 ms]
+  Passed TestFindNonExistentObjectsWhichContain(TEXT,"NonExistent") [346 ms]
+  Passed TestFindNonExistentObjectWhichContains(COMPONENT,"NonExistent") [497 ms]
+  Passed TestFindNonExistentObjectWhichContains(ID,"NonExistent") [334 ms]
+  Passed TestFindNonExistentObjectWhichContains(LAYER,"NonExistent") [376 ms]
+  Passed TestFindNonExistentObjectWhichContains(NAME,"NonExistent") [439 ms]
+  Passed TestFindNonExistentObjectWhichContains(TAG,"NonExistent") [439 ms]
+  Passed TestFindNonExistentObjectWhichContains(TEXT,"NonExistent") [335 ms]
+  Passed TestFindObject(COMPONENT,"AltRunner","//AltTesterPrefab") [651 ms]
+  Passed TestFindObject(COMPONENT,"CapsuleCollider","//Capsule") [641 ms]
+  Passed TestFindObject(COMPONENT,"AltTester.AltDriver.AltRunner","//AltTesterPrefab") [536 ms]
+  Passed TestFindObject(ID,"13b211d0-eafa-452d-8708-cc70f5075e93","//Capsule") [663 ms]
+  Passed TestFindObject(LAYER,"Water","//Capsule") [533 ms]
+  Passed TestFindObject(NAME,"Capsule","//Capsule") [603 ms]
+  Passed TestFindObject(PATH,"/Sphere","//Sphere") [562 ms]
+  Passed TestFindObject(PATH,"//PlaneS/..","//Sphere") [634 ms]
+  Passed TestFindObject(PATH,"//Sphere/*","//PlaneS") [505 ms]
+  Passed TestFindObject(PATH,"//*[@tag=plane]","//Plane") [424 ms]
+  Passed TestFindObject(PATH,"//*[@layer=Water]","//Capsule") [529 ms]
+  Passed TestFindObject(PATH,"//*[@name=Capsule]","//Capsule") [386 ms]
+  Passed TestFindObject(PATH,"//*[@component=CapsuleCollider]","//Capsule") [629 ms]
+  Passed TestFindObject(PATH,"//*[@id=13b211d0-eafa-452d-8708-cc70f5075e93]","//Capsule") [516 ms]
+  Passed TestFindObject(PATH,"//*[@text=Change Camera Mode]","/Canvas/Button/Text") [596 ms]
+  Passed TestFindObject(PATH,"//*[@tag=plane][@layer=Default]","//Plane") [470 ms]
+  Passed TestFindObject(PATH,"//*[@tag=plane][@layer=Default][@name=Plane]","//Plane") [499 ms]
+  Passed TestFindObject(PATH,"//*[@tag=plane][@layer=Default][@name=Plane][@component=MeshCollider]","//Plane") [633 ms]
+  Passed TestFindObject(PATH,"//*[@tag=plane][@layer=Default][@name=Plane][@component=MeshCollider][@id=58af4167-0971-415f-901c-7c5226c3c170]","//Plane") [499 ms]
+  Passed TestFindObject(PATH,"//*[@tag=Untagged][@layer=UI][@name=Text][@component=CanvasRenderer][@id=0ffed8a8-3d77-4b03-965b-5ae094ba9511][@text=Change Camera Mode]","/Canvas/Button/Text") [327 ms]
+  Passed TestFindObject(PATH,"//*[contains(@tag,pla)]","//Plane") [546 ms]
+  Passed TestFindObject(PATH,"//*[contains(@layer,Wat)]","//Capsule") [471 ms]
+  Passed TestFindObject(PATH,"//*[contains(@name,Cap)]","//Capsule") [631 ms]
+  Passed TestFindObject(PATH,"//*[contains(@component,CapsuleColl)]","//Capsule") [426 ms]
+  Passed TestFindObject(PATH,"//*[contains(@id,13b211d0-eafa-452d-8708-cc70f5075e93)]","//Capsule") [395 ms]
+  Passed TestFindObject(PATH,"//*[contains(@text,Change Camera)]","/Canvas/Button/Text") [469 ms]
+  Passed TestFindObject(PATH,"//*[contains(@tag,pla)][contains(@layer,Def)]","//Plane") [562 ms]
+  Passed TestFindObject(PATH,"//*[contains(@tag,pla)][contains(@layer,Def)][contains(@name,Pla)]","//Plane") [520 ms]
+  Passed TestFindObject(PATH,"//*[contains(@tag,pla)][contains(@layer,Def)][contains(@name,Pla)][contains(@component,MeshColl)]","//Plane") [378 ms]
+  Passed TestFindObject(PATH,"//*[contains(@tag,pla)][contains(@layer,Def)][contains(@name,Pla)][contains(@component,MeshColl)][contains(@id,58af4167-0971-415f-901c-7c5226c3c170)]","//Plane") [518 ms]
+  Passed TestFindObject(PATH,"//*[contains(@tag,Untag)][contains(@layer,U)][contains(@name,Tex)][contains(@component,CanvasRender)][contains(@id,0ffed8a8-3d77-4b03-965b-5ae094ba9511)][contains(@text,Change Camera)]","/Canvas/Button/Text") [601 ms]
+  Passed TestFindObject(TAG,"plane","//Plane") [418 ms]
+  Passed TestFindObject(TEXT,"Capsule Info","//CapsuleInfo") [654 ms]
+  Passed TestFindObject(TEXT,"Change Camera Mode","//Canvas/Button/Text") [726 ms]
+  Passed TestFindObjectByCamera(NAME,"Main Camera") [451 ms]
+  Passed TestFindObjectByCamera(COMPONENT,"Camera") [468 ms]
+  Passed TestFindObjectByCamera(TAG,"MainCamera") [393 ms]
+  Passed TestFindObjectByCamera(PATH,"/Main Camera") [437 ms]
+  Passed TestFindObjectByCamera(LAYER,"Default") [563 ms]
+  Passed TestFindObjectByCamera(ID,"4eb39f50-3403-473c-b684-915f7a40c393") [442 ms]
+  Passed TestFindObjectsByCamera [1 s]
+  Passed TestFindObjectsWhichContain(COMPONENT,"CapsuleColl","//Capsule") [511 ms]
+  Passed TestFindObjectsWhichContain(ID,"13b211d0-eafa-452d-8708-cc70f5075e93","//Capsule") [414 ms]
+  Passed TestFindObjectsWhichContain(LAYER,"Wat","//Capsule") [499 ms]
+  Passed TestFindObjectsWhichContain(TEXT,"Change Camera","/Canvas/Button/Text") [485 ms]
+  Passed TestFindObjectsWhichContain2(NAME,"Cap","//Capsule","//CapsuleInfo") [607 ms]
+  Passed TestFindObjectsWhichContain2(TAG,"pla","//Plane","/UIWithWorldSpace/Plane") [587 ms]
+  Passed TestFindObjectsWithCameraId [1 s]
+  Passed TestFindObjectWhichContains(COMPONENT,"CapsuleColl","//Capsule") [538 ms]
+  Passed TestFindObjectWhichContains(ID,"13b211d0-eafa-452d-8708-cc70f5075e93","//Capsule") [539 ms]
+  Passed TestFindObjectWhichContains(LAYER,"Wat","//Capsule") [589 ms]
+  Passed TestFindObjectWhichContains(NAME,"Cap","//Capsule") [460 ms]
+  Passed TestFindObjectWhichContains(TAG,"pla","//Plane") [462 ms]
+  Passed TestFindObjectWhichContains(TEXT,"Change Camera","/Canvas/Button/Text") [363 ms]
+  Passed TestFindObjectWithCameraId [1 s]
+  Passed TestForSetText [766 ms]
+  Passed TestGet3DObjectFromScreenshot [1 s]
+  Passed TestGetAllActiveCameras [505 ms]
+  Passed TestGetAllCameras [398 ms]
+  Passed TestGetAllClassFields [677 ms]
+  Passed TestGetAllClassProperties [430 ms]
+  Passed TestGetAllComponents [459 ms]
+  Passed TestGetAllElementsLight [442 ms]
+  Passed TestGetAllFields [506 ms]
+  Passed TestGetAllInheritedFields [560 ms]
+  Passed TestGetAllInheritedProperties [632 ms]
+  Passed TestGetAllMethods [568 ms]
+  Passed TestGetAllMethodsFromClass [567 ms]
+  Passed TestGetAllMethodsFromInherited [539 ms]
+  Passed TestGetAllProperties [647 ms]
+  Passed TestGetAllScenes [349 ms]
+  Passed TestGetAllScenesAndObjectDisableEnableOption [544 ms]
+  Passed TestGetAltObjectWithCanvasParentButOnlyTransform [412 ms]
+  Passed TestGetApplicationScreenSize [414 ms]
+  Passed TestGetChineseLetters("ChineseLetters","哦伊娜哦") [490 ms]
+  Passed TestGetChineseLetters("NonEnglishText","BJÖRN'S PASS") [364 ms]
+  Failed TestGetComponentProperty [502 ms]
+  Error Message:
+     Expected string length 11 but was 2. Strings differ at index 0.
+  Expected: "__default__"
+  But was:  "sg"
+  -----------^
+
+  Stack Trace:
+     at AltTester.AltTesterUnitySDK.Driver.Tests.TestForScene1TestSample.TestGetComponentProperty() in D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Assets\Examples\Test\Editor\Driver\Testforscene1TestSample.cs:line 213
+
+  Passed TestGetComponentPropertyArray [479 ms]
+  Passed TestGetComponentPropertyComplexClass [473 ms]
+  Passed TestGetComponentPropertyComplexClass2 [380 ms]
+  Passed TestGetComponentPropertyInvalidDeserialization [477 ms]
+  Passed TestGetComponentPropertyNonExistingParams("UnityEngine.UI.Text","InvalidProperty","UnityEngine.UI","Property InvalidProperty not found") [1 s]
+  Passed TestGetComponentPropertyNonExistingParams("UNEXISTING","m_Text","UnityEngine.UI","Component not found") [1 s]
+  Passed TestGetComponentPropertyNonExistingParams("UnityEngine.UI.Text","m_Text","UNEXISTING","Assembly not found") [1 s]
+  Passed TestGetComponentPropertyNullValue [438 ms]
+  Passed TestGetComponentPropertyPrivate [363 ms]
+  Failed TestGetComponentPropertyStatic [445 ms]
+  Error Message:
+     Expected: 0
+  But was:  5
+
+  Stack Trace:
+     at AltTester.AltTesterUnitySDK.Driver.Tests.TestForScene1TestSample.TestGetComponentPropertyStatic() in D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Assets\Examples\Test\Editor\Driver\Testforscene1TestSample.cs:line 371
+
+  Passed TestGetComponentPropertyStaticPublic [364 ms]
+  Passed TestGetComponentPropertyUnityEngine [404 ms]
+  Passed TestGetCurrentScene [360 ms]
+  Passed TestGetObjectWithNumberAsName [514 ms]
+  Passed TestGetScreenshot [1 s]
+  Passed TestGetScreensizeScreenshot [3 s]
+  Passed TestGetStaticNonExistingProperty [573 ms]
+  Passed TestGetStaticProperty [288 ms]
+  Passed TestGetStaticPropertyInstanceNull [344 ms]
+  Passed TestGetStaticpropertyNonExistingAssembly [391 ms]
+  Passed TestGetStaticpropertyNonExistingComponent [396 ms]
+  Passed TestGetTextCallMethodWithNoParameters [398 ms]
+  Passed TestGetUIObjectFromScreenshot [1 s]
+  Passed TestGetVersion [470 ms]
+  Passed TestHoldButton [2 s]
+  Passed TestInvalidPaths [942 ms]
+  Passed TestKeyDownAndKeyUpMouse0 [1 s]
+  Passed TestKeyPressNumberOfReads [874 ms]
+  Passed TestKeysDown [662 ms]
+  Passed TestLoadAdditiveScenes [2 s]
+  Passed TestLoadNonExistentScene [439 ms]
+  Passed TestObjectFromScreenshot [1 s]
+TestPointerEnter_PointerExit: Failing in pipeline but passing in local, will fix it later
+  Passed TestOpenDialogWithBeginEndTouch [1 s]
+  Skipped TestPointerEnter_PointerExit [< 1 ms]
+  Error Message:
+   Failing in pipeline but passing in local, will fix it later
+  Standard Output Messages:
+ Failing in pipeline but passing in local, will fix it later
+
+  Passed TestPointerPressSet [948 ms]
+TestPressKeyWaitTheDuration: Ignore PressKey method
+TestResetInput: Skip
+  Passed TestPressKeys [826 ms]
+  Skipped TestPressKeyWaitTheDuration [< 1 ms]
+  Error Message:
+   Ignore PressKey method
+  Standard Output Messages:
+ Ignore PressKey method
+
+  Passed TestPressNextSceneButton [917 ms]
+  Skipped TestResetInput [< 1 ms]
+  Error Message:
+   Skip
+  Standard Output Messages:
+ Skip
+
+  Passed TestScrollViewSwipe [5 s]
+  Passed TestSetCommandTimeout [1 s]
+  Passed TestSetComponentProperty [693 ms]
+  Passed TestSetComponentPropertyBadValue [480 ms]
+  Passed TestSetComponentPropertyComplexClass [664 ms]
+  Passed TestSetComponentPropertyComplexClass2 [466 ms]
+  Passed TestSetComponentPropertyComplexClass3 [565 ms]
+  Passed TestSetComponentPropertyNonExistingAssembly [489 ms]
+  Passed TestSetKeyFloat [806 ms]
+  Passed TestSetKeyInt [575 ms]
+  Passed TestSetKeyString [576 ms]
+  Passed TestSetNonExistingComponentProperty [564 ms]
+  Passed TestSetNonExistingProperty [588 ms]
+  Passed TestSetStaticNonExistingProperty [499 ms]
+  Passed TestSetStaticProperty [600 ms]
+  Passed TestSetStaticProperty2 [551 ms]
+  Passed TestSetStaticPropertyNonExistingAssembly [430 ms]
+  Passed TestSetStaticPropertyNonExistingComponent [461 ms]
+  Passed TestSetStructureProperty [708 ms]
+  Passed TestSetStructureProperty2 [549 ms]
+  Passed TestSetStructureProperty3 [497 ms]
+  Passed TestSetTextForUnityUIInputField("UnityUIInputField") [917 ms]
+  Passed TestSetTextForUnityUIInputField("TextMeshInputField") [1 s]
+  Passed TestSetTimeScale [1 s]
+  Passed TestStringIsMarkedAsPrimitive [696 ms]
+  Passed TestSwipeClickWhenMovedButRemainsOnTheSameObject [2 s]
+  Passed TestSwipeWithDuration0 [1 s]
+  Passed TestTap [768 ms]
+  Passed TestTap_MultipleTaps [1 s]
+  Passed TestTouchAreUpdatedWhenMoved [770 ms]
+  Passed TestUnloadOnlyScene [686 ms]
+  Passed TestUnloadScene [1 s]
+  Failed TestWaitForComponentProperty [25 s]
+  Error Message:
+   AltTester.AltTesterUnitySDK.Driver.WaitTimeOutException : Property InstrumentationSettings.AppName was not __default__ after 20 seconds
+  Stack Trace:
+     at AltTester.AltTesterUnitySDK.Driver.Commands.AltWaitForComponentProperty`1.Execute() in D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Assets\AltTester\Runtime\AltDriver\Commands\FindObjects\AltWaitForComponentProperty.cs:line 62
+   at AltTester.AltTesterUnitySDK.Driver.AltObject.WaitForComponentProperty[T](String componentName, String propertyName, T propertyValue, String assemblyName, Double timeout, Double interval) in D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Assets\AltTester\Runtime\AltDriver\Common\AltObject.cs:line 124
+   at AltTester.AltTesterUnitySDK.Driver.Tests.TestForScene1TestSample.TestWaitForComponentProperty() in D:\AltTester\AltTester-Unity-SDK\AltTester-Unity-SDK\Assets\Examples\Test\Editor\Driver\Testforscene1TestSample.cs:line 263
+  Passed TestWaitForComponentPropertyAssemblyNotFound [550 ms]
+  Passed TestWaitForComponentPropertyComponentNotFound [639 ms]
+  Passed TestWaitForComponentPropertyNonExistingParameters("UNEXISTING","InstrumentationSettings.AltServerPort","AltTester.AltTesterUnitySDK","Component not found") [682 ms]
+  Passed TestWaitForComponentPropertyNonExistingParameters("AltTester.AltTesterUnitySDK.AltRunner","UNEXISTING","AltTester.AltTesterUnitySDK","Property UNEXISTING not found") [513 ms]
+  Passed TestWaitForComponentPropertyNotFound [602 ms]
+  Passed TestWaitForComponentPropertyTimeOut [2 s]
+  Passed TestWaitForCurrentSceneToBe [442 ms]
+  Passed TestWaitForCurrentSceneToBeANonExistingScene [1 s]
+TestWaitForNonExistingComponentProperty: This test is failing because of https://github.com/alttester/AltTester-Unity-SDK/issues/1185
+  Passed TestWaitForElementWithTextWithCameraId [1 s]
+  Skipped TestWaitForNonExistingComponentProperty [< 1 ms]
+  Error Message:
+   This test is failing because of https://github.com/alttester/AltTester-Unity-SDK/issues/1185
+  Standard Output Messages:
+ This test is failing because of https://github.com/alttester/AltTester-Unity-SDK/issues/1185
+
+  Passed TestWaitForObjectByCamera [956 ms]
+  Passed TestWaitForObjectNotBePresentByCamera [5 s]
+  Passed TestWaitForObjectNotBePresentWithCameraId [5 s]
+  Passed TestWaitForObjectToNotExist [5 s]
+  Passed TestWaitForObjectToNotExistFail [1 s]
+  Passed TestWaitForObjectWhichContainsExistingCriteriaButNonExistingCamera [544 ms]
+  Passed TestWaitForObjectWhichContainsNonExistingCriteria [2 s]
+  Passed TestWaitForObjectWhichContainsWithCameraId [590 ms]
+  Passed TestWaitForObjectWhichContainsWithTag [381 ms]
+  Passed TestWaitForObjectWithCameraId [1 s]
+NUnit Adapter 3.17.0.0: Test execution complete
+
+Total tests: 273
+     Passed: 266
+     Failed: 3
+    Skipped: 4
+ Total time: 4.9104 Minutes
+ontain(LAYER,"NonExistent") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindNonExistentObjectsWhichContain(NAME,"NonExistent") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindNonExistentObjectsWhichContain(TAG,"NonExistent") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindNonExistentObjectsWhichContain(TEXT,"NonExistent") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindNonExistentObjectWhichContains(COMPONENT,"NonExistent") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindNonExistentObjectWhichContains(ID,"NonExistent") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindNonExistentObjectWhichContains(LAYER,"NonExistent") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindNonExistentObjectWhichContains(NAME,"NonExistent") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindNonExistentObjectWhichContains(TAG,"NonExistent") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindNonExistentObjectWhichContains(TEXT,"NonExistent") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(COMPONENT,"AltRunner","//AltTesterPrefab") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(COMPONENT,"CapsuleCollider","//Capsule") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(COMPONENT,"AltTester.AltDriver.AltRunner","//AltTesterPrefab") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(ID,"13b211d0-eafa-452d-8708-cc70f5075e93","//Capsule") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(LAYER,"Water","//Capsule") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(NAME,"Capsule","//Capsule") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"/Sphere","//Sphere") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//PlaneS/..","//Sphere") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//Sphere/*","//PlaneS") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//*[@tag=plane]","//Plane") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//*[@layer=Water]","//Capsule") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//*[@name=Capsule]","//Capsule") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//*[@component=CapsuleCollider]","//Capsule") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//*[@id=13b211d0-eafa-452d-8708-cc70f5075e93]","//Capsule") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//*[@text=Change Camera Mode]","/Canvas/Button/Text") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//*[@tag=plane][@layer=Default]","//Plane") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//*[@tag=plane][@layer=Default][@name=Plane]","//Plane") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//*[@tag=plane][@layer=Default][@name=Plane][@component=MeshCollider]","//Plane") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//*[@tag=plane][@layer=Default][@name=Plane][@component=MeshCollider][@id=58af4167-0971-415f-901c-7c5226c3c170]","//Plane") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//*[@tag=Untagged][@layer=UI][@name=Text][@component=CanvasRenderer][@id=0ffed8a8-3d77-4b03-965b-5ae094ba9511][@text=Change Camera Mode]","/Canvas/Button/Text") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//*[contains(@tag,pla)]","//Plane") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//*[contains(@layer,Wat)]","//Capsule") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//*[contains(@name,Cap)]","//Capsule") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//*[contains(@component,CapsuleColl)]","//Capsule") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//*[contains(@id,13b211d0-eafa-452d-8708-cc70f5075e93)]","//Capsule") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//*[contains(@text,Change Camera)]","/Canvas/Button/Text") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//*[contains(@tag,pla)][contains(@layer,Def)]","//Plane") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//*[contains(@tag,pla)][contains(@layer,Def)][contains(@name,Pla)]","//Plane") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//*[contains(@tag,pla)][contains(@layer,Def)][contains(@name,Pla)][contains(@component,MeshColl)]","//Plane") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//*[contains(@tag,pla)][contains(@layer,Def)][contains(@name,Pla)][contains(@component,MeshColl)][contains(@id,58af4167-0971-415f-901c-7c5226c3c170)]","//Plane") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(PATH,"//*[contains(@tag,Untag)][contains(@layer,U)][contains(@name,Tex)][contains(@component,CanvasRender)][contains(@id,0ffed8a8-3d77-4b03-965b-5ae094ba9511)][contains(@text,Change Camera)]","/Canvas/Button/Text") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(TAG,"plane","//Plane") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(TEXT,"Capsule Info","//CapsuleInfo") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObject(TEXT,"Change Camera Mode","//Canvas/Button/Text") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObjectByCamera(NAME,"Main Camera") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObjectByCamera(COMPONENT,"Camera") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObjectByCamera(TAG,"MainCamera") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObjectByCamera(PATH,"/Main Camera") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObjectByCamera(LAYER,"Default") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObjectByCamera(ID,"4eb39f50-3403-473c-b684-915f7a40c393") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObjectsByCamera [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObjectsWhichContain(COMPONENT,"CapsuleColl","//Capsule") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObjectsWhichContain(ID,"13b211d0-eafa-452d-8708-cc70f5075e93","//Capsule") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObjectsWhichContain(LAYER,"Wat","//Capsule") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObjectsWhichContain(TEXT,"Change Camera","/Canvas/Button/Text") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObjectsWhichContain2(NAME,"Cap","//Capsule","//CapsuleInfo") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObjectsWhichContain2(TAG,"pla","//Plane","/UIWithWorldSpace/Plane") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObjectsWithCameraId [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObjectWhichContains(COMPONENT,"CapsuleColl","//Capsule") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObjectWhichContains(ID,"13b211d0-eafa-452d-8708-cc70f5075e93","//Capsule") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObjectWhichContains(LAYER,"Wat","//Capsule") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObjectWhichContains(NAME,"Cap","//Capsule") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObjectWhichContains(TAG,"pla","//Plane") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObjectWhichContains(TEXT,"Change Camera","/Canvas/Button/Text") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestFindObjectWithCameraId [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestForSetText [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGet3DObjectFromScreenshot [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetAllActiveCameras [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetAllCameras [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetAllClassFields [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetAllClassProperties [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetAllComponents [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetAllElementsLight [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetAllFields [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetAllInheritedFields [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetAllInheritedProperties [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetAllMethods [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetAllMethodsFromClass [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetAllMethodsFromInherited [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetAllProperties [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetAllScenes [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetAllScenesAndObjectDisableEnableOption [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetAltObjectWithCanvasParentButOnlyTransform [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetApplicationScreenSize [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetChineseLetters("ChineseLetters","哦伊娜哦") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetChineseLetters("NonEnglishText","BJÖRN'S PASS") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetComponentProperty [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetComponentPropertyArray [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetComponentPropertyComplexClass [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetComponentPropertyComplexClass2 [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetComponentPropertyInvalidDeserialization [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetComponentPropertyNonExistingParams("UnityEngine.UI.Text","InvalidProperty","UnityEngine.UI","Property InvalidProperty not found") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetComponentPropertyNonExistingParams("UNEXISTING","m_Text","UnityEngine.UI","Component not found") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetComponentPropertyNonExistingParams("UnityEngine.UI.Text","m_Text","UNEXISTING","Assembly not found") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetComponentPropertyNullValue [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetComponentPropertyPrivate [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetComponentPropertyStatic [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetComponentPropertyStaticPublic [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetComponentPropertyUnityEngine [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetCurrentScene [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetObjectWithNumberAsName [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetScreenshot [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetScreensizeScreenshot [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetStaticNonExistingProperty [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetStaticProperty [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetStaticPropertyInstanceNull [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetStaticpropertyNonExistingAssembly [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetStaticpropertyNonExistingComponent [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetTextCallMethodWithNoParameters [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetUIObjectFromScreenshot [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestGetVersion [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestHoldButton [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestInvalidPaths [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestKeyDownAndKeyUpMouse0 [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestKeyPressNumberOfReads [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestKeysDown [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestLoadAdditiveScenes [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestLoadNonExistentScene [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestObjectFromScreenshot [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestOpenDialogWithBeginEndTouch [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestPointerEnter_PointerExit [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestPointerPressSet [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestPressKeys [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestPressKeyWaitTheDuration [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestPressNextSceneButton [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestResetInput [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestScrollViewSwipe [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSetCommandTimeout [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSetComponentProperty [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSetComponentPropertyBadValue [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSetComponentPropertyComplexClass [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSetComponentPropertyComplexClass2 [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSetComponentPropertyComplexClass3 [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSetComponentPropertyNonExistingAssembly [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSetKeyFloat [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSetKeyInt [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSetKeyString [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSetNonExistingComponentProperty [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSetNonExistingProperty [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSetStaticNonExistingProperty [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSetStaticProperty [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSetStaticProperty2 [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSetStaticPropertyNonExistingAssembly [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSetStaticPropertyNonExistingComponent [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSetStructureProperty [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSetStructureProperty2 [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSetStructureProperty3 [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSetTextForUnityUIInputField("UnityUIInputField") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSetTextForUnityUIInputField("TextMeshInputField") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSetTimeScale [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestStringIsMarkedAsPrimitive [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSwipeClickWhenMovedButRemainsOnTheSameObject [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestSwipeWithDuration0 [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestTap [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestTap_MultipleTaps [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestTouchAreUpdatedWhenMoved [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestUnloadOnlyScene [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestUnloadScene [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestWaitForComponentProperty [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestWaitForComponentPropertyAssemblyNotFound [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestWaitForComponentPropertyComponentNotFound [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestWaitForComponentPropertyNonExistingParameters("UNEXISTING","InstrumentationSettings.AltServerPort","AltTester.AltTesterUnitySDK","Component not found") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestWaitForComponentPropertyNonExistingParameters("AltTester.AltTesterUnitySDK.AltRunner","UNEXISTING","AltTester.AltTesterUnitySDK","Property UNEXISTING not found") [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestWaitForComponentPropertyNotFound [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestWaitForComponentPropertyTimeOut [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestWaitForCurrentSceneToBe [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestWaitForCurrentSceneToBeANonExistingScene [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestWaitForElementWithTextWithCameraId [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestWaitForNonExistingComponentProperty [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestWaitForObjectByCamera [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestWaitForObjectNotBePresentByCamera [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestWaitForObjectNotBePresentWithCameraId [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestWaitForObjectToNotExist [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestWaitForObjectToNotExistFail [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestWaitForObjectWhichContainsExistingCriteriaButNonExistingCamera [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestWaitForObjectWhichContainsNonExistingCriteria [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+TearDown failed for test fixture AltTester.AltTesterUnitySDK.Driver.Tests.TestForScene1TestSample
+AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+TearDown : System.NullReferenceException : Object reference not set to an instance of an object.
+NUnit Adapter 3.17.0.0: Test execution complete
+  Failed TestWaitForObjectWhichContainsWithCameraId [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestWaitForObjectWhichContainsWithTag [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+  Failed TestWaitForObjectWithCameraId [< 1 ms]
+  Error Message:
+   OneTimeSetUp: AltTester.AltTesterUnitySDK.Driver.MultipleDriversTryingToConnectException : Another driver is trying to connect.
+
+
+Total tests: 273
+     Failed: 273
+ Total time: 1.1599 Minutes
