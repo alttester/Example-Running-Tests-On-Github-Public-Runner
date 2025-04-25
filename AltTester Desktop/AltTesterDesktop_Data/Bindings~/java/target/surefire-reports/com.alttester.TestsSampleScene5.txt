@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.alttester.TestsSampleScene5
--------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.426 s - in com.alttester.TestsSampleScene5

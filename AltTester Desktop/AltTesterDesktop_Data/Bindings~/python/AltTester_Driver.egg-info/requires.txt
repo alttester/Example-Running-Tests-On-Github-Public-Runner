@@ -1,4 +1,0 @@
-loguru
-deprecated
-websocket-client
-pure-python-adb

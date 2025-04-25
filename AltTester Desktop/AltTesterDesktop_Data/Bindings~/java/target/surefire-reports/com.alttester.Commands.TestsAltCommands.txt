@@ -1,9 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.alttester.Commands.TestsAltCommands
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 62.3 s <<< FAILURE! - in com.alttester.Commands.TestsAltCommands
-testSetServerLogging  Time elapsed: 62.177 s  <<< ERROR!
-com.alttester.altTesterExceptions.ConnectionTimeoutException: Failed to connect to AltTester on host: 127.0.0.1 port: 13000.
-	at com.alttester.Commands.TestsAltCommands.testSetServerLogging(TestsAltCommands.java:42)
-Caused by: java.net.ConnectException: Connection refused: no further information
-

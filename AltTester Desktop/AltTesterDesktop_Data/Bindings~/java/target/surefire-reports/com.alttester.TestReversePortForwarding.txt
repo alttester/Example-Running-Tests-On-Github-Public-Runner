@@ -1,9 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.alttester.TestReversePortForwarding
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 61.015 s <<< FAILURE! - in com.alttester.TestReversePortForwarding
-com.alttester.TestReversePortForwarding  Time elapsed: 61.015 s  <<< ERROR!
-com.alttester.altTesterExceptions.ConnectionTimeoutException: Failed to connect to AltTester on host: 127.0.0.1 port: 13000.
-	at com.alttester.TestReversePortForwarding.setUp(TestReversePortForwarding.java:38)
-Caused by: java.net.ConnectException: Connection refused: no further information
-
