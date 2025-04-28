@@ -10,6 +10,11 @@ jobs:
       - uses: actions/setup-dotnet@v3
         with:
           dotnet-version: "7.0.x"
+
+      - name: Pull LFS files
+        shell: bash
+        run: git lfs pull          
+
       - name: StartTest
         run: |
           ./"AltTester Desktop\AltTesterDesktop.exe" -batchmode -nographics -port 13000 -license ${{ secrets.LicenseKey }}  -termsAndConditionsAccepted &
